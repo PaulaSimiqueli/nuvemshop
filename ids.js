@@ -11,8 +11,11 @@
     for (const key in ids) {
         if (ids.hasOwnProperty(key)) {
             if(LS[ids[key]]){
-                str  = str + key + ": " + LS[ids[key]].id + "\n"
-            
+                if(LS[ids[key]].id){
+                    str  = str + key + ": " + LS[ids[key]].id + "\n"
+                
+                }
+                
             }
             
         }
