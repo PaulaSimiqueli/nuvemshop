@@ -7,7 +7,7 @@ from flask import Flask, request, Response
 
 app = Flask(__name__)
 
-secret = "UD8HDcHU7aoZAkDg43XhriHLHYUje8V92W3EmOuz7sC4xTx2"
+secret = "app secret"
 
 
 @app.route('/webhook', methods=['POST'])
